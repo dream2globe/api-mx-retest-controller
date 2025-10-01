@@ -6,8 +6,9 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     # pkgs.go
-    pkgs.python314
+    pkgs.python312
     pkgs.uv
+    pkgs.openssh
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
@@ -20,6 +21,26 @@
       # "vscodevim.vim"
       "google.gemini-cli-vscode-ide-companion"
       "ms-python.python"
+      "Avetis.tokyo-night"
+      "charliermarsh.ruff"
+      "eamodio.gitlens"
+      "GitHub.vscode-pull-request-github"
+      "hoovercj.vscode-power-mode"
+      "LaurentTreguier.vscode-simple-icons"
+      "mhutchie.git-graph"
+      "ms-python.debugpy"
+      "ms-toolsai.jupyter"
+      "ms-toolsai.jupyter-keymap"
+      "ms-toolsai.jupyter-renderers"
+      "ms-toolsai.vscode-jupyter-cell-tags"
+      "ms-toolsai.vscode-jupyter-slideshow"
+      "njpwerner.autodocstring"
+      "oderwat.indent-rainbow"
+      "wilfriedago.vscode-symbols-icon-theme"
+      "franneck94.vscode-python-config"
+      "franneck94.vscode-python-dev-extension-pack"
+      "njqdev.vscode-python-typehint"
+      "tamasfe.even-better-toml"
     ];
     # Enable previews
     previews = {
